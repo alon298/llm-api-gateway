@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+venv/
+*.db
+*.sqlite3
+outputs/
+kb/
+checkpoints/
+.DS_Store
+node_modules/

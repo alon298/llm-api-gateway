@@ -1,0 +1,1 @@
+services:\n  gateway:\n    build: .\n    ports:\n      - "8400:8400"\n

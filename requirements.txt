@@ -1,0 +1,1 @@
+fastapi>=0.110\nuvicorn>=0.29\npydantic>=2.6\nrequests>=2.31\n

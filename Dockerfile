@@ -1,0 +1,1 @@
+FROM python:3.12-slim\nWORKDIR /app\nCOPY . .\nRUN pip install -r requirements.txt\nEXPOSE 8400\nCMD ["uvicorn", "gateway:app", "--host", "0.0.0.0", "--port", "8400"]\n
